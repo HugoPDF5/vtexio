@@ -1,0 +1,12 @@
+.sliderArrows {
+    position: absolute;
+    margin: 400px 250px 0;
+}
+
+.paginationDot {
+    background-color: grey;
+}
+
+.paginationDot--isActive {
+    background-color: #59FF00;
+}

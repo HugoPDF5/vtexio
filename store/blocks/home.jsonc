@@ -1,0 +1,138 @@
+{
+  "store.home": { 
+    "blocks": [
+      "tab-layout",
+      "flex-layout.row",
+      "flex-layout.row#2"
+    ]
+  },
+
+  "tab-layout": {
+    "children": [
+      "tab-list"
+    ]
+  },
+
+  "tab-list": {
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4",
+      "tab-list.item#5",
+      "tab-list.item#6",
+      "tab-list.item#7",
+      "tab-list.item#8"
+      ]
+  },
+
+
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "promocap",
+      "label": "PROMOÇÃO",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "CORINTHIANS"
+    }
+  },
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "PALMEIRAS"
+    }
+  },
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "signos",
+      "label": "SIGNOS"
+    }
+  },
+  "tab-list.item#5": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "DIVERTIDOS"
+    }
+  },
+  "tab-list.item#6": {
+    "props": {
+      "tabId": "7maravilhas",
+      "label": "7 MARAVILHAS"
+    }
+  },
+
+  "tab-list.item#7": {
+    "props": {
+      "tabId": "guerreiros",
+      "label": "GUERREIROS"
+    }
+  },
+
+  "tab-list.item#8": {
+    "props": {
+      "tabId": "album",
+      "label": "ALBUM"
+    }
+  },
+
+  "flex-layout.row": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "slider-layout"
+    ]
+  },
+
+  "slider-layout":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite":"false",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always"
+    },
+    "children": [
+      "image#banner1",
+      "image#banner2"
+    ]
+  },
+  "image#banner1": {
+    "props": {
+      "src":"https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210818%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210818T173758Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=6a11723b78d5e9329e5bf90be141c84ce5bfc94c4901619b6b877fffb1ed50c8",
+      "link": "https://www.upmedal.com/detalhes/1290",
+      "maxWidth": "912px",
+      "maxHeight": "319px"
+    }
+  },
+  "image#banner2": {
+    "props": {
+      "src":"https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210818%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210818T204024Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=c87f715f4dc2e5e1d4f591e57e9c01bdc5a23c6061386adc6ef78ceea5fd19d4",
+      "maxWidth": "912px",
+      "maxHeight": "273px"
+    }
+  },
+
+  "flex-layout.row#2":{
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text"
+    ]
+  },
+  "rich-text": {
+    "props":{
+      "text": "você está vendo provas de",
+      "textPosition": "CENTER"
+    }
+  }
+
+}
